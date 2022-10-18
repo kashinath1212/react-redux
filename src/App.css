@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.Card_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cards {
+  padding: 8px;
+  margin: 8px;
+  margin-bottom: 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  min-height: 20rem;
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 3px 3px 8px 2px #83838370;
+}
+.bgColorblue {
+  background-color: #61dafb;
+}
+.bgColoryellow {
+  background-color: gold ;
+}
